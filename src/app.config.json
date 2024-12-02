@@ -1,8 +1,7 @@
 {
-  "// example app config": "",
   "footer": {
     "otherInfo": {
-      "date": "2020-{{now}}"
+      "date": "2024-{{now}}"
     },
     "linkSections": [
       {
@@ -15,11 +14,6 @@
           {
             "name": "关于我",
             "href": "/about-me"
-          },
-          {
-            "name": "关于此项目",
-            "href": "https://github.com/innei/Shiro",
-            "external": true
           }
         ]
       },
@@ -33,11 +27,6 @@
           {
             "name": "友链",
             "href": "/friends"
-          },
-          {
-            "name": "监控",
-            "href": "https://status.shizuri.net/status/main",
-            "external": true
           }
         ]
       },
@@ -82,12 +71,15 @@
         "template": [
           {
             "type": "h1",
-            "text": "Hi, I'm ",
+            "text": "Ciallo ～(∠・ω< )⌒★! ",
             "class": "font-light text-4xl"
           },
           {
+            "type": "br"
+          },
+          {
             "type": "h1",
-            "text": "Innei",
+            "text": "I'm 種田のバター",
             "class": "font-medium mx-2 text-4xl"
           },
           {
@@ -100,7 +92,7 @@
           },
           {
             "type": "h1",
-            "text": "A NodeJS Full Stack ",
+            "text": "A Game Full Stack ",
             "class": "font-light text-4xl"
           },
           {
@@ -114,19 +106,11 @@
           }
         ]
       },
-      "description": "An independent developer coding with love."
+      "description": "A game developer coding with love."
     },
     "module": {
-      "donate": {
-        "enable": true,
-        "link": "https://afdian.net/@Innei",
-        "qrcode": [
-          "https://cdn.jsdelivr.net/gh/Innei/img-bed@master/20191211132347.png",
-          "https://cdn.innei.ren/bed/2023/0424213144.png"
-        ]
-      },
       "bilibili": {
-        "liveId": 1434499
+        "liveId": 114514
       }
     }
   }
